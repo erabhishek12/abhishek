@@ -706,7 +706,19 @@
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     <script src="main.js"></script>
+<!-- index (2).html : scripts ke bilkul end me, </body> se pehle -->
+<script>
+  window.addEventListener('load', () => {
+    const pre = document.getElementById('preloader');
+    if (!pre) return;
+    pre.classList.add('hide');          // fade-out
+    setTimeout(() => pre.remove(), 600); // DOM se hata do
+    // Optional: body scroll enable (agar disable kiya ho to)
+    document.body.style.overflow = 'auto';
+  });
+</script>
 </body>
 
 </html>
+
 
