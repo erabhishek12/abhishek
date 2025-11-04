@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abhishek Kumar - Cybersecurity Expert & Full Stack Developer">
+    <meta name="keywords" content="Cybersecurity, Ethical Hacking, Web Development, AI Projects">
+    <title>ABHISHEK KUMAR | Cybersecurity & AI Specialist</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://i.postimg.cc/cLPtsRZk/IMG-20250218-213248.jpg" type="image/jpeg">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-rain"></canvas>
+    
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Loading Screen -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="glitch-wrapper">
+                <div class="glitch" data-text="ABHISHEK KUMAR">ABHISHEK KUMAR</div>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <p class="loader-text">INITIALIZING SYSTEM...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">ABHISHEK</span>
+                <span class="logo-bracket">/&gt;</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">
+                    <span class="nav-number">01.</span> HOME
+                </a>
+                <a href="#about" class="nav-link">
+                    <span class="nav-number">02.</span> ABOUT
+                </a>
+                <a href="#projects" class="nav-link">
+                    <span class="nav-number">03.</span> PROJECTS
+                </a>
+                <a href="#testimonials" class="nav-link">
+                    <span class="nav-number">04.</span> TESTIMONIALS
+                </a>
+                <a href="#music" class="nav-link">
+                    <span class="nav-number">05.</span> MUSIC
+                </a>
+                <a href="#contact" class="nav-link">
+                    <span class="nav-number">06.</span> CONTACT
+                </a>
+            </div>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Social Sidebar -->
+    <div class="social-sidebar left">
+        <a href="mailto:abhishekyadav954698@gmail.com" class="social-icon" data-tooltip="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/919546983729" target="_blank" class="social-icon" data-tooltip="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com/naturelensbyabhi" target="_blank" class="social-icon" data-tooltip="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/abhishek-kumar" target="_blank" class="social-icon" data-tooltip="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <div class="social-line"></div>
+    </div>
+
+    <!-- Email Sidebar -->
+    <div class="social-sidebar right">
+        <a href="mailto:abhishekyadav954698@gmail.com" class="email-link">abhishekyadav954698@gmail.com</a>
+        <div class="social-line"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <p class="hero-intro glitch-text" data-text="Hi, my name is">Hi, my name is</p>
+                    <h1 class="hero-name">
+                        <span class="text-glitch" data-text="ABHISHEK KUMAR">ABHISHEK KUMAR</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="typing-text"></span>
+                        <span class="cursor-blink">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        B.Tech CSE Student specializing in <span class="highlight">Cybersecurity</span>, 
+                        <span class="highlight">Advanced Programming</span>, and building innovative, 
+                        high-performance technology solutions.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="6">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="7">0</div>
+                            <div class="stat-label">Skills</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-target="100">0</div>
+                            <div class="stat-label">Commitment%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="image-border"></div>
+                        <img src="https://i.postimg.cc/cLPtsRZk/IMG-20250218-213248.jpg" alt="Abhishek Kumar">
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="floating-icons">
+                        <i class="fab fa-python"></i>
+                        <i class="fab fa-js"></i>
+                        <i class="fas fa-shield-alt"></i>
+                        <i class="fab fa-html5"></i>
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll Down</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">01.</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            I'm a passionate <span class="highlight">B.Tech Computer Science Engineering</span> student 
+                            at Adwaita Mission Institute of Technology with a deep fascination for 
+                            <span class="highlight">Cybersecurity</span> and <span class="highlight">AI Development</span>.
+                        </p>
+                        <p class="about-description">
+                            My journey in technology is driven by curiosity and the desire to create solutions 
+                            that push boundaries. From building AI chatbots to developing security tools, 
+                            I thrive on challenges that require innovative thinking.
+                        </p>
+                        
+                        <div class="skills-container">
+                            <h3 class="skills-title">Technical Arsenal</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Cybersecurity</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-user-secret"></i>
+                                    <span>Ethical Hacking</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fab fa-js"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-code"></i>
+                                    <span>C Programming</span>
+                                </div>
+                                <div class="skill-item">
+                                    <i class="fas fa-globe"></i>
+                                    <span>Web Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="education-timeline">
+                        <h3 class="timeline-title">Education Journey</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">2024 - 2028</span>
+                                    <h4>B.Tech in Computer Science</h4>
+                                    <p>Adwaita Mission Institute of Technology</p>
+                                    <div class="timeline-tag">Current</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-date">Completed</span>
+                                    <h4>High School Diploma</h4>
+                                    <p>M.D.N High School - Science Stream</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">02.</span>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="ai">AI & ML</button>
+                    <button class="filter-btn" data-filter="web">Web Tools</button>
+                    <button class="filter-btn" data-filter="restricted">Restricted</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1: VIRTUAL GF -->
+                    <div class="project-card" data-category="ai">
+                        <div class="project-image">
+                            <img src="https://i.postimg.cc/MGxKxHWq/icon.webp" alt="VIRTUAL GF">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" onclick="alert('Launch Project')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">VIRTUAL GF</h3>
+                            <p class="project-description">
+                                A POWERFUL AI CHAT BOT Engineered from the ground up for a deeply personal 
+                                and truly unrestricted conversational experience.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">AI</span>
+                                <span class="tag">Chatbot</span>
+                                <span class="tag">NLP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: ABHI&k COMPILER -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://i.postimg.cc/t4wzHVVr/image.png" alt="ABHI&k COMPILER">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" onclick="alert('Launch Project')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">ABHI&k COMPILER</h3>
+                            <p class="project-description">
+                                A minimalist web-based compiler for rapid code execution.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Compiler</span>
+                                <span class="tag">Web Dev</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: MULTI FUNCTION CALCULATOR -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://i.postimg.cc/NMJnmjzZ/Whats-App-Image-2025-07-17-at-12-49-02-a28dd9fc.jpg" alt="MULTI FUNCTION CALCULATOR">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" onclick="alert('Launch Project')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">MULTI FUNCTION CALCULATOR</h3>
+                            <p class="project-description">
+                                A utility tool that merges a standard calculator with a covert media vault.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Calculator</span>
+                                <span class="tag">Security</span>
+                                <span class="tag">Utility</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: A&K Study Helper AI -->
+                    <div class="project-card" data-category="ai">
+                        <div class="project-image">
+                            <img src="https://i.postimg.cc/65JhBFmK/Whats-App-Image-2025-07-23-at-12-57-46-89fb2a7b.jpg" alt="A&K Study Helper AI">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" onclick="alert('Launch Project')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">A&K Study Helper AI</h3>
+                            <p class="project-description">
+                                A multilingual AI-powered study assistant with text and image support.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">AI</span>
+                                <span class="tag">Education</span>
+                                <span class="tag">ML</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: MULTI TOOL BOX -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://i.postimg.cc/0yF39g77/file-000000004eac61f5b40367b6a8758a9e.png" alt="MULTI TOOL BOX">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" onclick="alert('Launch Project')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">MULTI TOOL BOX</h3>
+                            <p class="project-description">
+                                A versatile suite of over 35 web-based tools for students and developers.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Tools</span>
+                                <span class="tag">Productivity</span>
+                                <span class="tag">Web</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: SEE YOUR FUTURE -->
+                    <div class="project-card" data-category="ai">
+                        <div class="project-image">
+                            <img src="https://i.ibb.co/M5x2ytv4/Chat-GPT-Image-Nov-4-2025-10-40-54-PM-min.png" alt="SEE YOUR FUTURE">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link" onclick="alert('Launch Project')">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">SEE YOUR FUTURE</h3>
+                            <p class="project-description">
+                                ⚡ "Scan Your Future — If You Dare! 🤖 The AI That Knows You (or Pretends To 😏)"
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">AI</span>
+                                <span class="tag">Fun</span>
+                                <span class="tag">Interactive</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Restricted Project: PROJECT_OVERLORD -->
+                    <div class="project-card restricted-card" data-category="restricted">
+                        <div class="project-image">
+                            <img src="https://i.postimg.cc/k47g2Vqg/overlord-project.gif" alt="PROJECT OVERLORD">
+                            <div class="restricted-overlay">
+                                <i class="fas fa-lock"></i>
+                                <p>CLASSIFIED</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                PROJECT_OVERLORD
+                            </h3>
+                            <p class="project-description">
+                                An unfiltered emotional AI construct. Explores the bleeding edge of synthetic 
+                                personality and deep conversational models. Access is restricted.
+                            </p>
+                            <button class="btn btn-restricted" onclick="openAccessModal()">
+                                <i class="fas fa-unlock"></i> Request Access
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Restricted Project: GAALI GENERATOR -->
+                    <div class="project-card restricted-card" data-category="restricted">
+                        <div class="project-image">
+                            <img src="https://i.postimg.cc/44K2ymvb/Generated-Image-July-23-2025-2-53-PM.jpg" alt="GAALI GENERATOR">
+                            <div class="restricted-overlay">
+                                <i class="fas fa-lock"></i>
+                                <p>18+</p>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                GAALI GENERATOR
+                            </h3>
+                            <p class="project-description">
+                                An experimental language model project. Mature content.
+                            </p>
+                            <button class="btn btn-restricted" onclick="alert('Age Verification Required')">
+                                <i class="fas fa-lock"></i> Age Verification
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">03.</span>
+                    <h2 class="section-title">Favorite People</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="testimonials-slider">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <img src="https://i.postimg.cc/GmKdh4X5/IMG-20250128-020501.jpg" alt="Prof. Chandan Trigunit">
+                        </div>
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">
+                                "Our Sir is more than just a teacher – he is our guide, motivator, and mentor. 
+                                His way of teaching is unique and never boring, making even the toughest lessons 
+                                easy to understand. He always encourages us to do better, supports us in every step, 
+                                and corrects us whenever we go wrong, just like a caring guardian."
+                            </p>
+                            <div class="testimonial-author">
+                                <h4>Prof. Chandan Trigunit</h4>
+                                <p>Mentor & Guide</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <img src="https://i.postimg.cc/nh29bcBH/IMG-20250128-021330.jpg" alt="Chandan Kumar">
+                        </div>
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">
+                                "Chandan is the kind of friend who brings positivity and strength in every moment of life."
+                            </p>
+                            <div class="testimonial-author">
+                                <h4>Chandan Kumar</h4>
+                                <p>Best Friend</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <img src="https://i.postimg.cc/R0q7gnyr/IMG-20250128-022026.jpg" alt="Ajit Kumar">
+                        </div>
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="testimonial-text">
+                                "Ajit is not just a friend, but a true support who always stands by me like family."
+                            </p>
+                            <div class="testimonial-author">
+                                <h4>Ajit Kumar</h4>
+                                <p>Close Friend</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots"></div>
+                    <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Music Section -->
+        <section id="music" class="music-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">04.</span>
+                    <h2 class="section-title">Audio Logs</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="music-grid">
+                    <!-- Music 1 -->
+                    <div class="music-card">
+                        <div class="music-image">
+                            <img src="https://i.postimg.cc/q7dY7BqP/music-1.jpg" alt="Kahani Suno 2.0">
+                            <div class="music-overlay">
+                                <a href="https://youtube.com" target="_blank" class="play-btn">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="music-content">
+                            <h3 class="music-title">Kahani Suno 2.0</h3>
+                            <p class="music-artist">Kaifi Khalil</p>
+                            <p class="music-description">An emotive track perfect for contemplation.</p>
+                        </div>
+                    </div>
+
+                    <!-- Music 2 -->
+                    <div class="music-card">
+                        <div class="music-image">
+                            <img src="https://i.postimg.cc/k5tJ8V4P/music-2.jpg" alt="Heeriye">
+                            <div class="music-overlay">
+                                <a href="https://youtube.com" target="_blank" class="play-btn">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="music-content">
+                            <h3 class="music-title">Heeriye</h3>
+                            <p class="music-artist">Arijit Singh</p>
+                            <p class="music-description">Soulful melody celebrating love and connection.</p>
+                        </div>
+                    </div>
+
+                    <!-- Music 3 -->
+                    <div class="music-card">
+                        <div class="music-image">
+                            <img src="https://i.postimg.cc/c1N9W8Z8/music-3.jpg" alt="O' Maahi">
+                            <div class="music-overlay">
+                                <a href="https://youtube.com" target="_blank" class="play-btn">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="music-content">
+                            <h3 class="music-title">O' Maahi</h3>
+                            <p class="music-artist">Arijit Singh</p>
+                            <p class="music-description">From 'Dunki', a heartwarming track.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">05.</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <h3>Let's Create Something Amazing</h3>
+                        <p>
+                            I'm always open to discussing new projects, creative ideas, or opportunities 
+                            to be part of your vision. Whether you have a question or just want to say hi, 
+                            I'll try my best to get back to you!
+                        </p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:abhishekyadav954698@gmail.com" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>abhishekyadav954698@gmail.com</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://wa.me/919546983729" target="_blank" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p>+91 9546983729</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://www.instagram.com/naturelensbyabhi" target="_blank" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Instagram</h4>
+                                <p>@naturelensbyabhi</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Abhishek Kumar. All Rights Reserved.</p>
+                <p class="footer-subtitle">Designed & Built with <i class="fas fa-heart"></i> and lots of ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Access Modal for PROJECT_OVERLORD -->
+    <div id="accessModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeAccessModal()">&times;</span>
+            <div class="modal-header">
+                <h2>🔐 PROJECT_OVERLORD Access</h2>
+                <p>Secure payment required for access key</p>
+            </div>
+            
+            <div class="modal-body">
+                <div class="payment-section">
+                    <h3>Payment Details</h3>
+                    <div class="upi-details">
+                        <p><strong>UPI ID:</strong> 9546983729@fam</p>
+                        <div class="qr-code">
+                            <img src="https://i.postimg.cc/x8ZXrF27/Whats-App-Image-2025-07-23-at-14-05-41-82d99099.jpg" alt="UPI QR Code">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="verification-section">
+                    <h3>Enter UTR Number</h3>
+                    <input type="text" id="utrInput" placeholder="12-digit UTR from transaction" maxlength="12">
+                    <button class="btn btn-primary" onclick="verifyUTR()">
+                        <i class="fas fa-check"></i> Verify & Get Access
+                    </button>
+                </div>
+                
+                <div class="telegram-link">
+                    <p>Or get your key from secure channel:</p>
+                    <a href="https://t.me/lost_life2" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-telegram"></i> Join Telegram Channel
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
